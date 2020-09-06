@@ -103,21 +103,21 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"_candidateId\",\"type\":\"uint256\"}],\"name\":\"votedEvent\",\"type\":\"event\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"candidates\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"voteCount\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"candidatesCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_candidateId\",\"type\":\"uint256\"}],\"name\":\"vote\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"voters\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/Harry/Python/Ethereum/election/contracts/Election.sol\":\"Election\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Harry/Python/Ethereum/election/contracts/Election.sol\":{\"keccak256\":\"0x7ce24d95d5fdd5c56951d4bf048eb483aa969ac9e9aed44f7e45a0726c90e088\",\"urls\":[\"bzz-raw://9dac7831b70662c40a9840368415a0b157d3ff8e999a4d6aa0faac324292f9bf\",\"dweb:/ipfs/QmeqS7pQR65PLELk33ZJZkwbZKYXmYYRTLftCJDTzoWCwk\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b506100556040518060400160405280600b81526020017f43616e646964617465203100000000000000000000000000000000000000000081525061009e60201b60201c565b6100996040518060400160405280600b81526020017f43616e646964617465203200000000000000000000000000000000000000000081525061009e60201b60201c565b6101bf565b60026000815480929190600101919050555060405180606001604052806002548152602001828152602001600081525060016000600254815260200190815260200160002060008201518160000155602082015181600101908051906020019061010992919061011a565b506040820151816002015590505050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061015b57805160ff1916838001178555610189565b82800160010185558215610189579182015b8281111561018857825182559160200191906001019061016d565b5b509050610196919061019a565b5090565b6101bc91905b808211156101b85760008160009055506001016101a0565b5090565b90565b6103bc806101ce6000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c80630121b93f146100515780632d35a8a21461007f5780633477ee2e1461009d578063a3ec138d14610152575b600080fd5b61007d6004803603602081101561006757600080fd5b81019080803590602001909291905050506101ae565b005b61008761029f565b6040518082815260200191505060405180910390f35b6100c9600480360360208110156100b357600080fd5b81019080803590602001909291905050506102a5565b6040518084815260200180602001838152602001828103825284818151815260200191508051906020019080838360005b838110156101155780820151818401526020810190506100fa565b50505050905090810190601f1680156101425780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b6101946004803603602081101561016857600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610367565b604051808215151515815260200191505060405180910390f35b6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff161561020457600080fd5b60008111801561021657506002548111155b61021f57600080fd5b60016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550600160008281526020019081526020016000206002016000815480929190600101919050555050565b60025481565b6001602052806000526040600020600091509050806000015490806001018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103575780601f1061032c57610100808354040283529160200191610357565b820191906000526020600020905b81548152906001019060200180831161033a57829003601f168201915b5050505050908060020154905083565b60006020528060005260406000206000915054906101000a900460ff168156fea265627a7a72315820e4349ee871c0f61860ae92d5fbfc7601245a797db03fdb2b40ec723d245bb75864736f6c63430005100032",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c80630121b93f146100515780632d35a8a21461007f5780633477ee2e1461009d578063a3ec138d14610152575b600080fd5b61007d6004803603602081101561006757600080fd5b81019080803590602001909291905050506101ae565b005b61008761029f565b6040518082815260200191505060405180910390f35b6100c9600480360360208110156100b357600080fd5b81019080803590602001909291905050506102a5565b6040518084815260200180602001838152602001828103825284818151815260200191508051906020019080838360005b838110156101155780820151818401526020810190506100fa565b50505050905090810190601f1680156101425780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b6101946004803603602081101561016857600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610367565b604051808215151515815260200191505060405180910390f35b6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff161561020457600080fd5b60008111801561021657506002548111155b61021f57600080fd5b60016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550600160008281526020019081526020016000206002016000815480929190600101919050555050565b60025481565b6001602052806000526040600020600091509050806000015490806001018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103575780601f1061032c57610100808354040283529160200191610357565b820191906000526020600020905b81548152906001019060200180831161033a57829003601f168201915b5050505050908060020154905083565b60006020528060005260406000206000915054906101000a900460ff168156fea265627a7a72315820e4349ee871c0f61860ae92d5fbfc7601245a797db03fdb2b40ec723d245bb75864736f6c63430005100032",
-  "sourceMap": "61:1205:0:-;;;556:106;8:9:-1;5:2;;;30:1;27;20:12;5:2;556:106:0;589:27;;;;;;;;;;;;;;;;;;:12;;;:27;;:::i;:::-;627;;;;;;;;;;;;;;;;;;:12;;;:27;;:::i;:::-;61:1205;;670:166;733:15;;:18;;;;;;;;;;;;;792:36;;;;;;;;802:15;;792:36;;;;819:5;792:36;;;;826:1;792:36;;;762:10;:27;773:15;;762:27;;;;;;;;;;;:66;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;670:166;:::o;61:1205::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
-  "deployedSourceMap": "61:1205:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;61:1205:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;844:419;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;844:419:0;;;;;;;;;;;;;;;;;:::i;:::-;;431:27;;;:::i;:::-;;;;;;;;;;;;;;;;;;;349:44;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;349:44:0;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;349:44:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;249:38;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;249:38:0;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;844:419;956:6;:18;963:10;956:18;;;;;;;;;;;;;;;;;;;;;;;;;955:19;947:28;;;;;;1049:1;1034:12;:16;:51;;;;;1070:15;;1054:12;:31;;1034:51;1026:60;;;;;;1161:4;1140:6;:18;1147:10;1140:18;;;;;;;;;;;;;;;;:25;;;;;;;;;;;;;;;;;;1218:10;:24;1229:12;1218:24;;;;;;;;;;;:34;;;:37;;;;;;;;;;;;;844:419;:::o;431:27::-;;;;:::o;349:44::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;249:38::-;;;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.5.16;\r\n\r\ncontract Election {\r\n    // Model a Candidate\r\n    struct Candidate {\r\n        uint id;\r\n        string name;\r\n        uint voteCount;\r\n    }\r\n\r\n    // Store accounts that have voted\r\n    mapping(address => bool) public voters;\r\n    // Store Candidates\r\n    \r\n    // Fetch Candidate\r\n    mapping(uint => Candidate) public candidates;\r\n    // Store Candidates Count\r\n    uint public candidatesCount;\r\n\r\n    // voted event\r\n    event votedEvent (\r\n        uint indexed _candidateId\r\n    );\r\n\r\n    constructor () public {\r\n        addCandidate(\"Candidate 1\");\r\n        addCandidate(\"Candidate 2\");\r\n    }\r\n\r\n    function addCandidate (string memory _name) private {\r\n        candidatesCount ++;\r\n        candidates[candidatesCount] = Candidate(candidatesCount, _name, 0);\r\n    }\r\n\r\n    function vote (uint _candidateId) public {\r\n        // require that they haven't voted before\r\n        require(!voters[msg.sender]);\r\n\r\n        // require a valid candidate\r\n        require(_candidateId > 0 && _candidateId <= candidatesCount);\r\n\r\n        // record that voter has voted \r\n        voters[msg.sender] = true;\r\n\r\n        // update candidate vote count\r\n        candidates[_candidateId].voteCount ++;\r\n    }\r\n}\r\n",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"_candidateId\",\"type\":\"uint256\"}],\"name\":\"votedEvent\",\"type\":\"event\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"candidates\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"voteCount\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"candidatesCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_candidateId\",\"type\":\"uint256\"}],\"name\":\"vote\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"voters\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/Harry/Python/Ethereum/election/contracts/Election.sol\":\"Election\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Harry/Python/Ethereum/election/contracts/Election.sol\":{\"keccak256\":\"0x96577a73854bb51ed3e62569d4252d4186b9a86c7ddc6b61d96acb85e5914ab2\",\"urls\":[\"bzz-raw://686df2d1f1fb6608fa9e99edaf8449df7435a050918aa04a7a447c6d058eba49\",\"dweb:/ipfs/QmSzGmSYjD782Uu2Ygc5UknXySaMJpRXPktaYPmznXNJgL\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506100556040518060400160405280600b81526020017f43616e646964617465203100000000000000000000000000000000000000000081525061009e60201b60201c565b6100996040518060400160405280600b81526020017f43616e646964617465203200000000000000000000000000000000000000000081525061009e60201b60201c565b6101bf565b60026000815480929190600101919050555060405180606001604052806002548152602001828152602001600081525060016000600254815260200190815260200160002060008201518160000155602082015181600101908051906020019061010992919061011a565b506040820151816002015590505050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061015b57805160ff1916838001178555610189565b82800160010185558215610189579182015b8281111561018857825182559160200191906001019061016d565b5b509050610196919061019a565b5090565b6101bc91905b808211156101b85760008160009055506001016101a0565b5090565b90565b6103e9806101ce6000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c80630121b93f146100515780632d35a8a21461007f5780633477ee2e1461009d578063a3ec138d14610152575b600080fd5b61007d6004803603602081101561006757600080fd5b81019080803590602001909291905050506101ae565b005b6100876102cc565b6040518082815260200191505060405180910390f35b6100c9600480360360208110156100b357600080fd5b81019080803590602001909291905050506102d2565b6040518084815260200180602001838152602001828103825284818151815260200191508051906020019080838360005b838110156101155780820151818401526020810190506100fa565b50505050905090810190601f1680156101425780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b6101946004803603602081101561016857600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610394565b604051808215151515815260200191505060405180910390f35b6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff161561020457600080fd5b60008111801561021657506002548111155b61021f57600080fd5b60016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055506001600082815260200190815260200160002060020160008154809291906001019190505550807ffff3c900d938d21d0990d786e819f29b8d05c1ef587b462b939609625b684b1660405160405180910390a250565b60025481565b6001602052806000526040600020600091509050806000015490806001018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103845780601f1061035957610100808354040283529160200191610384565b820191906000526020600020905b81548152906001019060200180831161036757829003601f168201915b5050505050908060020154905083565b60006020528060005260406000206000915054906101000a900460ff168156fea265627a7a723158202b5ed9a7ff9faf1b8de9f45dd42a725afdf9d411c2d8e81c696ae85f1839736064736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c80630121b93f146100515780632d35a8a21461007f5780633477ee2e1461009d578063a3ec138d14610152575b600080fd5b61007d6004803603602081101561006757600080fd5b81019080803590602001909291905050506101ae565b005b6100876102cc565b6040518082815260200191505060405180910390f35b6100c9600480360360208110156100b357600080fd5b81019080803590602001909291905050506102d2565b6040518084815260200180602001838152602001828103825284818151815260200191508051906020019080838360005b838110156101155780820151818401526020810190506100fa565b50505050905090810190601f1680156101425780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b6101946004803603602081101561016857600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610394565b604051808215151515815260200191505060405180910390f35b6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff161561020457600080fd5b60008111801561021657506002548111155b61021f57600080fd5b60016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055506001600082815260200190815260200160002060020160008154809291906001019190505550807ffff3c900d938d21d0990d786e819f29b8d05c1ef587b462b939609625b684b1660405160405180910390a250565b60025481565b6001602052806000526040600020600091509050806000015490806001018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103845780601f1061035957610100808354040283529160200191610384565b820191906000526020600020905b81548152906001019060200180831161036757829003601f168201915b5050505050908060020154905083565b60006020528060005260406000206000915054906101000a900460ff168156fea265627a7a723158202b5ed9a7ff9faf1b8de9f45dd42a725afdf9d411c2d8e81c696ae85f1839736064736f6c63430005100032",
+  "sourceMap": "61:1279:0:-;;;556:106;8:9:-1;5:2;;;30:1;27;20:12;5:2;556:106:0;589:27;;;;;;;;;;;;;;;;;;:12;;;:27;;:::i;:::-;627;;;;;;;;;;;;;;;;;;:12;;;:27;;:::i;:::-;61:1279;;670:166;733:15;;:18;;;;;;;;;;;;;792:36;;;;;;;;802:15;;792:36;;;;819:5;792:36;;;;826:1;792:36;;;762:10;:27;773:15;;762:27;;;;;;;;;;;:66;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;670:166;:::o;61:1279::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "61:1279:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;61:1279:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;844:493;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;844:493:0;;;;;;;;;;;;;;;;;:::i;:::-;;431:27;;;:::i;:::-;;;;;;;;;;;;;;;;;;;349:44;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;349:44:0;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;349:44:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;249:38;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;249:38:0;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;844:493;956:6;:18;963:10;956:18;;;;;;;;;;;;;;;;;;;;;;;;;955:19;947:28;;;;;;1049:1;1034:12;:16;:51;;;;;1070:15;;1054:12;:31;;1034:51;1026:60;;;;;;1161:4;1140:6;:18;1147:10;1140:18;;;;;;;;;;;;;;;;:25;;;;;;;;;;;;;;;;;;1218:10;:24;1229:12;1218:24;;;;;;;;;;;:34;;;:37;;;;;;;;;;;;;1316:12;1305:24;;;;;;;;;;844:493;:::o;431:27::-;;;;:::o;349:44::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;249:38::-;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.5.16;\r\n\r\ncontract Election {\r\n    // Model a Candidate\r\n    struct Candidate {\r\n        uint id;\r\n        string name;\r\n        uint voteCount;\r\n    }\r\n\r\n    // Store accounts that have voted\r\n    mapping(address => bool) public voters;\r\n    // Store Candidates\r\n    \r\n    // Fetch Candidate\r\n    mapping(uint => Candidate) public candidates;\r\n    // Store Candidates Count\r\n    uint public candidatesCount;\r\n\r\n    // voted event\r\n    event votedEvent (\r\n        uint indexed _candidateId\r\n    );\r\n\r\n    constructor () public {\r\n        addCandidate(\"Candidate 1\");\r\n        addCandidate(\"Candidate 2\");\r\n    }\r\n\r\n    function addCandidate (string memory _name) private {\r\n        candidatesCount ++;\r\n        candidates[candidatesCount] = Candidate(candidatesCount, _name, 0);\r\n    }\r\n\r\n    function vote (uint _candidateId) public {\r\n        // require that they haven't voted before\r\n        require(!voters[msg.sender]);\r\n\r\n        // require a valid candidate\r\n        require(_candidateId > 0 && _candidateId <= candidatesCount);\r\n\r\n        // record that voter has voted \r\n        voters[msg.sender] = true;\r\n\r\n        // update candidate vote count\r\n        candidates[_candidateId].voteCount ++;\r\n\r\n        // trigger voted event\r\n        emit votedEvent(_candidateId);\r\n    }\r\n}\r\n",
   "sourcePath": "C:/Users/Harry/Python/Ethereum/election/contracts/Election.sol",
   "ast": {
     "absolutePath": "/C/Users/Harry/Python/Ethereum/election/contracts/Election.sol",
     "exportedSymbols": {
       "Election": [
-        91
+        95
       ]
     },
-    "id": 92,
+    "id": 96,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -137,9 +137,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 91,
+        "id": 95,
         "linearizedBaseContracts": [
-          91
+          95
         ],
         "name": "Election",
         "nodeType": "ContractDefinition",
@@ -229,7 +229,7 @@
             ],
             "name": "Candidate",
             "nodeType": "StructDefinition",
-            "scope": 91,
+            "scope": 95,
             "src": "112:90:0",
             "visibility": "public"
           },
@@ -238,7 +238,7 @@
             "id": 12,
             "name": "voters",
             "nodeType": "VariableDeclaration",
-            "scope": 91,
+            "scope": 95,
             "src": "249:38:0",
             "stateVariable": true,
             "storageLocation": "default",
@@ -283,7 +283,7 @@
             "id": 16,
             "name": "candidates",
             "nodeType": "VariableDeclaration",
-            "scope": 91,
+            "scope": 95,
             "src": "349:44:0",
             "stateVariable": true,
             "storageLocation": "default",
@@ -330,7 +330,7 @@
             "id": 18,
             "name": "candidatesCount",
             "nodeType": "VariableDeclaration",
-            "scope": 91,
+            "scope": 95,
             "src": "431:27:0",
             "stateVariable": true,
             "storageLocation": "default",
@@ -538,7 +538,7 @@
               "parameters": [],
               "src": "578:0:0"
             },
-            "scope": 91,
+            "scope": 95,
             "src": "556:106:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -780,7 +780,7 @@
               "parameters": [],
               "src": "722:0:0"
             },
-            "scope": 91,
+            "scope": 95,
             "src": "670:166:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -788,9 +788,9 @@
           },
           {
             "body": {
-              "id": 89,
+              "id": 93,
               "nodeType": "Block",
-              "src": "885:378:0",
+              "src": "885:452:0",
               "statements": [
                 {
                   "expression": {
@@ -831,7 +831,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 143,
+                              "referencedDeclaration": 147,
                               "src": "963:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -880,10 +880,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        146,
-                        147
+                        150,
+                        151
                       ],
-                      "referencedDeclaration": 146,
+                      "referencedDeclaration": 150,
                       "src": "947:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1038,10 +1038,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        146,
-                        147
+                        150,
+                        151
                       ],
-                      "referencedDeclaration": 146,
+                      "referencedDeclaration": 150,
                       "src": "1026:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1098,7 +1098,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 143,
+                          "referencedDeclaration": 147,
                           "src": "1147:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1236,11 +1236,65 @@
                   "id": 88,
                   "nodeType": "ExpressionStatement",
                   "src": "1218:37:0"
+                },
+                {
+                  "eventCall": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 90,
+                        "name": "_candidateId",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 55,
+                        "src": "1316:12:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      ],
+                      "id": 89,
+                      "name": "votedEvent",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 22,
+                      "src": "1305:10:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_event_nonpayable$_t_uint256_$returns$__$",
+                        "typeString": "function (uint256)"
+                      }
+                    },
+                    "id": 91,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1305:24:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 92,
+                  "nodeType": "EmitStatement",
+                  "src": "1300:29:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 90,
+            "id": 94,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -1255,7 +1309,7 @@
                   "id": 55,
                   "name": "_candidateId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 90,
+                  "scope": 94,
                   "src": "859:17:0",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1285,27 +1339,27 @@
               "parameters": [],
               "src": "885:0:0"
             },
-            "scope": 91,
-            "src": "844:419:0",
+            "scope": 95,
+            "src": "844:493:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 92,
-        "src": "61:1205:0"
+        "scope": 96,
+        "src": "61:1279:0"
       }
     ],
-    "src": "33:1235:0"
+    "src": "33:1309:0"
   },
   "legacyAST": {
     "absolutePath": "/C/Users/Harry/Python/Ethereum/election/contracts/Election.sol",
     "exportedSymbols": {
       "Election": [
-        91
+        95
       ]
     },
-    "id": 92,
+    "id": 96,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -1325,9 +1379,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 91,
+        "id": 95,
         "linearizedBaseContracts": [
-          91
+          95
         ],
         "name": "Election",
         "nodeType": "ContractDefinition",
@@ -1417,7 +1471,7 @@
             ],
             "name": "Candidate",
             "nodeType": "StructDefinition",
-            "scope": 91,
+            "scope": 95,
             "src": "112:90:0",
             "visibility": "public"
           },
@@ -1426,7 +1480,7 @@
             "id": 12,
             "name": "voters",
             "nodeType": "VariableDeclaration",
-            "scope": 91,
+            "scope": 95,
             "src": "249:38:0",
             "stateVariable": true,
             "storageLocation": "default",
@@ -1471,7 +1525,7 @@
             "id": 16,
             "name": "candidates",
             "nodeType": "VariableDeclaration",
-            "scope": 91,
+            "scope": 95,
             "src": "349:44:0",
             "stateVariable": true,
             "storageLocation": "default",
@@ -1518,7 +1572,7 @@
             "id": 18,
             "name": "candidatesCount",
             "nodeType": "VariableDeclaration",
-            "scope": 91,
+            "scope": 95,
             "src": "431:27:0",
             "stateVariable": true,
             "storageLocation": "default",
@@ -1726,7 +1780,7 @@
               "parameters": [],
               "src": "578:0:0"
             },
-            "scope": 91,
+            "scope": 95,
             "src": "556:106:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -1968,7 +2022,7 @@
               "parameters": [],
               "src": "722:0:0"
             },
-            "scope": 91,
+            "scope": 95,
             "src": "670:166:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -1976,9 +2030,9 @@
           },
           {
             "body": {
-              "id": 89,
+              "id": 93,
               "nodeType": "Block",
-              "src": "885:378:0",
+              "src": "885:452:0",
               "statements": [
                 {
                   "expression": {
@@ -2019,7 +2073,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 143,
+                              "referencedDeclaration": 147,
                               "src": "963:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -2068,10 +2122,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        146,
-                        147
+                        150,
+                        151
                       ],
-                      "referencedDeclaration": 146,
+                      "referencedDeclaration": 150,
                       "src": "947:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2226,10 +2280,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        146,
-                        147
+                        150,
+                        151
                       ],
-                      "referencedDeclaration": 146,
+                      "referencedDeclaration": 150,
                       "src": "1026:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2286,7 +2340,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 143,
+                          "referencedDeclaration": 147,
                           "src": "1147:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -2424,11 +2478,65 @@
                   "id": 88,
                   "nodeType": "ExpressionStatement",
                   "src": "1218:37:0"
+                },
+                {
+                  "eventCall": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 90,
+                        "name": "_candidateId",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 55,
+                        "src": "1316:12:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      ],
+                      "id": 89,
+                      "name": "votedEvent",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 22,
+                      "src": "1305:10:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_event_nonpayable$_t_uint256_$returns$__$",
+                        "typeString": "function (uint256)"
+                      }
+                    },
+                    "id": 91,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1305:24:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 92,
+                  "nodeType": "EmitStatement",
+                  "src": "1300:29:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 90,
+            "id": 94,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -2443,7 +2551,7 @@
                   "id": 55,
                   "name": "_candidateId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 90,
+                  "scope": 94,
                   "src": "859:17:0",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2473,18 +2581,18 @@
               "parameters": [],
               "src": "885:0:0"
             },
-            "scope": 91,
-            "src": "844:419:0",
+            "scope": 95,
+            "src": "844:493:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 92,
-        "src": "61:1205:0"
+        "scope": 96,
+        "src": "61:1279:0"
       }
     ],
-    "src": "33:1235:0"
+    "src": "33:1309:0"
   },
   "compiler": {
     "name": "solc",
@@ -2508,12 +2616,12 @@
         }
       },
       "links": {},
-      "address": "0xfB7da168fF4D00b813910a30B34F6228cCF28a77",
-      "transactionHash": "0x35e45c257cfe092fff8c7a31c2098540a4c2a882ac50351a07daf8cadbe17a98"
+      "address": "0x391DeEb3DAdb0F90cD6206F7A9F977a8B7F17106",
+      "transactionHash": "0xb66801f417e48af1b10b754b953b2f2413af43e1fef2598c4139bb910904bac4"
     }
   },
   "schemaVersion": "3.2.4",
-  "updatedAt": "2020-09-06T20:05:41.734Z",
+  "updatedAt": "2020-09-06T22:38:48.090Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
